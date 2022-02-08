@@ -18,7 +18,8 @@ main {
   width: 80%;
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
 .img-container i {
@@ -35,16 +36,14 @@ main {
   border-radius: 0;
 }
 
-@media only screen and (max-width: 1000px) {
-  .wishlist-container {
-    width: 90%;
-    grid-template-columns: repeat(3, 1fr);
+@media only screen and (max-width: 600px) {
+  .product-card {
+    width: 60%;
   }
 }
 
-@media only screen and (max-width: 650px) {
-  .wishlist-container {
-    width: 95%;
-    grid-template-columns: repeat(2, 1fr);
+@media only screen and (max-width: 500px) {
+  .product-card {
+    width: 80%;
   }
 }
