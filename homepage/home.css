@@ -1,0 +1,192 @@
+.nav-header {
+  margin: 0;
+}
+
+.title {
+  font-size: 1.8rem;
+}
+
+main {
+  width: 100%;
+}
+
+/* Intro Section Styling */
+.intro-section {
+  height: 30rem;
+  max-width: 100%;
+  height: calc(100vh - 75px);
+  font-weight: 400;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./chechmate-chess.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.intro-content {
+  width: 80%;
+  margin: auto;
+}
+
+.intro-heading {
+  font-size: 3rem;
+}
+
+.intro-colored {
+  color: #88c047;
+}
+
+.intro-para {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.btn-solid-primary {
+  margin-top: 1.5rem;
+  background-color: var(--success-color);
+  color: white;
+  border-radius: 1rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.1rem;
+}
+
+.btn-solid-primary:hover {
+  background-color: #6fa72e;
+}
+
+/* Category Items Styling */
+.category-items {
+  margin: 5rem auto;
+}
+
+.category-items .intro-heading {
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+}
+
+.category-cards {
+  width: 80%;
+  margin: 3rem auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.card-container {
+  display: grid;
+  border-radius: 1rem;
+  height: 15rem;
+  width: 15rem;
+  transition: all 0.2s ease-in-out;
+  margin: auto;
+}
+
+.card-container:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+
+.background {
+  height: 15rem;
+}
+
+.background img {
+  height: 100%;
+  object-fit: contain;
+}
+
+.background,
+.content {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.content {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  color: white;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  opacity: 0.5;
+}
+
+/* .card-container {
+  width: 15rem;
+  height: 15rem;
+  margin: auto;
+  border-radius: 1rem;
+  /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; */
+/* display: flex;
+  justify-content: center;
+  align-items: center; */
+/* *  display: grid; 
+/* } * */
+
+/* .card-container .img-container {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.img-container,
+.card-title {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.card-title {
+  color: black;
+  font-size: 2rem;
+}  */
+
+/* .card-chess-board {
+  opacity: ;
+  background: url("../wishlist/board-brown-white.jpg");
+  transition: all 0.2s ease-in-out;
+} */
+/* .card-chess-board {
+  display: grid;
+}
+
+.card-chess-board .img-container {
+  width: 15rem;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.card-chess-board .card-title {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.card-chess-board:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+} */
+
+/* .card-chess-piece {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../wishlist/chess-black-brown-pieces.jpg");
+}
+
+.card-chess-book {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../wishlist/chess-fianchetto-book.jpg");
+}
+
+.card-chess-clock {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../wishlist/chess-clock.jpg");
+} */
