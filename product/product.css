@@ -1,0 +1,108 @@
+/* Basic Styling */
+.nav-header {
+  margin: 0;
+}
+
+.title {
+  font-size: 1.8rem;
+}
+
+main {
+  width: 100vw;
+}
+
+.page-title {
+  font-size: 1.5rem;
+}
+
+/* Full Page After Navbar Styling*/
+.filter-product-container {
+  display: flex;
+  width: 95%;
+  margin: 1rem auto;
+}
+
+.filter-container {
+  flex: 1 1 5rem;
+}
+
+.product-container {
+  flex: 4 1 30rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  margin-left: 2rem;
+}
+
+/* Filter Section Styling */
+.filter-clear-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear-filters-btn:hover {
+  background-color: white;
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.filter-type {
+  margin: 1rem 0;
+}
+
+.filter-type-container {
+  margin: 0.5rem 0;
+}
+
+.filter-type-container .slider {
+  margin-top: 5px;
+}
+
+.filter-type-container label {
+  margin-left: 5px;
+}
+
+.filter-type .slider {
+  width: 70%;
+}
+
+/* Product Section Styling */
+.product-card .img-container i {
+  color: var(--secondary-color);
+  padding: 5px;
+}
+
+.product-card .img-container i:hover {
+  background-color: rgb(240, 232, 232);
+  border-radius: 50%;
+}
+
+.ecommerce-btn {
+  border-radius: 0;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1000px) {
+  .filter-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .product-card {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .product-card {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .product-card {
+    width: 80%;
+  }
+}
