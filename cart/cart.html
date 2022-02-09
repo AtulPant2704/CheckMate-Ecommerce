@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/829cb68a23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://checkmate-ui.netlify.app/css/components.css" />
+    <link rel="stylesheet" href="./cart.css">
+    <title>Cart</title>
+</head>
+
+<body>
+    
+    <nav>
+        <div class="nav-header">
+            <div class="title-and-search">
+                <i class="fas fa-bars menu-bar"></i>
+                <h2 class="title">My Website</h2>
+                <div class="search">
+                    <span class="btn-search"><i class="fas fa-search"></i></span>
+                    <input type="text" placeholder="Search" class="input-search">
+                </div>
+            </div>
+            <div class="user-controls">
+                <button class="btn-login">Login</button>
+                <div class="btn-check">
+                    <i class="far fa-heart"></i>
+                    <span class="count">0</span>
+                </div>
+                <div class="btn-check">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="count">0</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h2 class="align-center page-title">My Wishlist</h2>
+
+        <section class="cart-bill-container">
+
+            <div class="cart-container">
+                <div class="cart-card">
+                    <div class="img-container">
+                        <img src="../wishlist/chess-black-brown-pieces.jpg" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                    </div>
+                    <div class="card-details">
+                        <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                        <h3 class="card-price">₹ 5000</h3>
+                        <div class="quantity-controls">
+                            <button class="btn-control decrease-btn"><i class="fas fa-minus"></i></button>
+                            <p class="quantity">2</p>
+                            <button class="btn-control increase-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <button class="wishlist-btn ecommerce-btn">Move to Wishlist</button>
+                    </div>
+                </div>
+                <div class="cart-card">
+                    <div class="img-container">
+                        <img src="../wishlist/chess-fianchetto-book.jpg" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                    </div>
+                    <div class="card-details">
+                        <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                        <h3 class="card-price">₹ 5000</h3>
+                        <div class="quantity-controls">
+                            <button class="btn-control decrease-btn"><i class="fas fa-minus"></i></button>
+                            <p class="quantity">2</p>
+                            <button class="btn-control increase-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <button class="wishlist-btn ecommerce-btn">Move to Wishlist</button>
+                    </div>
+                </div>
+                <div class="cart-card">
+                    <div class="img-container">
+                        <img src="../wishlist/chess-red-white-pieces.jpg" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                    </div>
+                    <div class="card-details">
+                        <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                        <h3 class="card-price">₹ 5000</h3>
+                        <div class="quantity-controls">
+                            <button class="btn-control decrease-btn"><i class="fas fa-minus"></i></button>
+                            <p class="quantity">2</p>
+                            <button class="btn-control increase-btn"><i class="fas fa-plus"></i></button>
+                        </div>
+                        <button class="wishlist-btn ecommerce-btn">Move to Wishlist</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bill-card">
+                <h2 class="card-title">PRICE DETAILS</h2>
+                <div class="items-container">
+                    <div class="items-price">
+                        <p class="item-type">Price (2 item)</p>
+                        <p class="item-type-price">₹ 5000</p>
+                    </div>
+                    <div class="items-price">
+                        <p class="item-type">Discount</p>
+                        <p class="item-type-price">₹ 500</p>
+                    </div>
+                    <div class="items-price">
+                        <p class="item-type">Delivery</p>
+                        <p class="item-type-price">FREE</p>
+                    </div>
+                </div>
+                <div class="items-price total-price-container">
+                    <p class="item-type total-price">Total Amount</p>
+                    <p class="item-type-price total-price-value">₹ 4500</p>
+                </div>
+                <button class="order-btn ecommerce-btn">PLACE ORDER</button>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
