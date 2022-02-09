@@ -68,6 +68,11 @@ main {
 }
 
 /* Product Section Styling */
+
+.product-card {
+  margin: auto;
+}
+
 .product-card .img-container i {
   color: var(--secondary-color);
   padding: 5px;
