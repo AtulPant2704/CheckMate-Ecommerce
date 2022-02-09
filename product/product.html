@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/829cb68a23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://checkmate-ui.netlify.app/css/components.css" />
+    <link rel="stylesheet" href="./product.css">
+    <title>Product</title>
+</head>
+
+<body>
+    
+    <nav>
+        <div class="nav-header">
+            <div class="title-and-search">
+                <i class="fas fa-bars menu-bar"></i>
+                <h2 class="title">My Website</h2>
+                <div class="search">
+                    <span class="btn-search"><i class="fas fa-search"></i></span>
+                    <input type="text" placeholder="Search" class="input-search">
+                </div>
+            </div>
+            <div class="user-controls">
+                <button class="btn-login">Login</button>
+                <div class="btn-check">
+                    <i class="far fa-heart"></i>
+                    <span class="count">0</span>
+                </div>
+                <div class="btn-check">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="count">0</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="filter-product-container">
+
+            <!-- Filter Container -->
+            <div class="filter-container">
+                <div class="filter-clear-heading">
+                    <h2 class="filter-heading">Filters</h2>
+                    <button class="text-underline clear-filters-btn btn btn-text-primary gray-text">Clear</button>
+                </div>
+
+                <!-- Range Slider Filter -->
+                <div class="filter-type">
+                    <h3 class="filter-type-heading">Price</h3>
+                    <div class="filter-type-container">
+                        <label for="slider">₹0 - ₹13000</label>
+                        <input type="range" min="0" max="10000" value="5000" class="slider">
+                    </div>
+                </div>
+
+                <!-- Sort By Prices Filter -->
+                <div class="filter-type">
+                    <h3 class="filter-type-heading">Sort by</h3>
+                    <div class="filter-type-container">
+                        <input type="radio" class="low-high">
+                        <label for="low-high">Price - Low to High</label>
+                    </div>
+                    <div class="filter-type-container">
+                        <input type="radio" class="high-low">
+                        <label for="high-low">Price - High to Low</label>
+                    </div>
+                </div>
+
+                <!-- Category Filter -->
+                <div class="filter-type">
+                    <h3 class="filter-type-heading">Category</h3>
+                    <div class="filter-type-container">
+                        <input type="checkbox" class="chess-pieces">
+                        <label for="chess-pieces">Chess Pieces</label>
+                    </div>
+                    <div class="filter-type-container">
+                        <input type="checkbox" class="chess-books">
+                        <label for="chess-books">Chess Books</label>
+                    </div>
+                    <div class="filter-type-container">
+                        <input type="checkbox" class="chess-board">
+                        <label for="chess-board">Chess Board</label>
+                    </div>
+                    <div class="filter-type-container">
+                        <input type="checkbox" class="chess-clock">
+                        <label for="chess-clock">Chess Clock</label>
+                    </div>
+                </div>
+
+                <!-- Rating Filter -->
+                <div class="filter-type">
+                    <h3 class="filter-type-heading">Rating</h3>
+                    <div class="filter-type-container">
+                        <input type="radio" class="four-star">
+                        <label for="four-star">4 stars & above</label>
+                    </div>
+                    <div class="filter-type-container">
+                        <input type="radio" class="three-star">
+                        <label for="three-star">3 stars & above</label>
+                    </div>
+                    <div class="filter-type-container">
+                        <input type="radio" class="two-star">
+                        <label for="two-star">2 stars & above</label>
+                    </div>
+                    <div class="filter-type-container">
+                        <input type="radio" class="one-star">
+                        <label for="one-star">1 stars & above</label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Products Container -->
+            <div class="product-container">
+
+                <!-- Different Product Card -->
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="../wishlist/chess-dark-brown-light-pieces.jpg" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                        <i class="far fa-heart"></i>
+                        <span class="card-badge">Sold Out</span>
+                    </div>
+                    <div class="card-details">
+                        <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                        <h3 class="card-price">₹ 5000</h3>
+                        <button class="cart-btn ecommerce-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="../wishlist/chess-fianchetto-book.jpg" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="card-details">
+                        <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                        <h3 class="card-price">₹ 5000</h3>
+                        <button class="cart-btn ecommerce-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="../wishlist/chess-red-white-pieces.jpg" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <div class="card-details">
+                        <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                        <h3 class="card-price">₹ 5000</h3>
+                        <button class="cart-btn ecommerce-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="../wishlist/chess-red-white-pieces.jpg" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                        <i class="fas fa-heart"></i>
+                        <span class="card-badge">Sold Out</span>
+                    </div>
+                    <div class="card-details">
+                        <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                        <h3 class="card-price">₹ 5000</h3>
+                        <button class="cart-btn ecommerce-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="../wishlist/chess-red-white-pieces.jpg" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                        <i class="far fa-heart"></i>
+                        <span class="card-badge">Sold Out</span>
+                    </div>
+                    <div class="card-details">
+                        <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                        <h3 class="card-price">₹ 5000</h3>
+                        <button class="cart-btn ecommerce-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="../wishlist/chess-red-white-pieces.jpg" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="card-details">
+                        <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                        <h3 class="card-price">₹ 5000</h3>
+                        <button class="cart-btn ecommerce-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="../wishlist/chess-red-white-pieces.jpg" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                        <i class="far fa-heart"></i>
+                        <span class="card-badge">Sold Out</span>
+                    </div>
+                    <div class="card-details">
+                        <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                        <h3 class="card-price">₹ 5000</h3>
+                        <button class="cart-btn ecommerce-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="../wishlist/chess-red-white-pieces.jpg" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="card-details">
+                        <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                        <h3 class="card-price">₹ 5000</h3>
+                        <button class="cart-btn ecommerce-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="img-container">
+                        <img src="../wishlist/chess-red-white-pieces.jpg" alt="chess-dark-brown-light-pieces" class="img-responsive">
+                        <i class="fas fa-heart"></i>
+                        <span class="card-badge">Sold Out</span>
+                    </div>
+                    <div class="card-details">
+                        <p class="card-title">The Honour of Stauton Series Chess Pieces</p>
+                        <h3 class="card-price">₹ 5000</h3>
+                        <button class="cart-btn ecommerce-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+
+</html>
