@@ -118,75 +118,35 @@ main {
   background-color: black;
   width: 100%;
   text-align: center;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
-/* .card-container {
-  width: 15rem;
-  height: 15rem;
-  margin: auto;
-  border-radius: 1rem;
-  /* background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain; */
-/* display: flex;
-  justify-content: center;
-  align-items: center; */
-/* *  display: grid; 
-/* } * */
-
-/* .card-container .img-container {
-  width: 100%;
-  opacity: 0.5;
+/* Footer Styling Starts */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--row-color);
+  padding: 1rem;
 }
 
-.img-container,
-.card-title {
-  grid-column: 1/2;
-  grid-row: 1/2;
+.footer-title {
+  font-size: 1.2rem;
+  margin: 0.5rem auto;
+  font-weight: 500;
 }
 
-.card-title {
-  color: black;
+.social-media a {
+  margin-left: 0.5rem;
+}
+
+.social-media i {
   font-size: 2rem;
-}  */
-
-/* .card-chess-board {
-  opacity: ;
-  background: url("../wishlist/board-brown-white.jpg");
-  transition: all 0.2s ease-in-out;
-} */
-/* .card-chess-board {
-  display: grid;
+  color: var(--secondary-color);
+  margin-right: 1rem;
 }
 
-.card-chess-board .img-container {
-  width: 15rem;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
+.footer-end {
+  font-size: 1rem;
+  margin: 0.5rem auto;
 }
-
-.card-chess-board .card-title {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-
-.card-chess-board:hover {
-  transition: all 0.2s ease-in-out;
-  transform: scale(1.1);
-} */
-
-/* .card-chess-piece {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../wishlist/chess-black-brown-pieces.jpg");
-}
-
-.card-chess-book {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../wishlist/chess-fianchetto-book.jpg");
-}
-
-.card-chess-clock {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../wishlist/chess-clock.jpg");
-} */
