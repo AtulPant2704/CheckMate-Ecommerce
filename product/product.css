@@ -1,3 +1,5 @@
+@import url("../footer.css");
+
 /* Basic Styling */
 .nav-header {
   margin: 0;
@@ -21,7 +23,7 @@ main {
   display: flex;
   gap: 1rem;
   width: 95%;
-  margin: 1rem auto 2rem;
+  margin: 1rem auto 3rem;
 }
 
 .filter-container {
@@ -73,7 +75,6 @@ main {
 }
 
 /* Product Section Styling */
-
 .product-card {
   margin: auto;
 }

@@ -1,3 +1,6 @@
+@import url("../footer.css");
+
+/* Main Styling */
 .nav-header {
   margin: 0;
 }
@@ -7,16 +10,17 @@
 }
 
 main {
-  width: 100vw;
+  width: 100%;
 }
 
 .page-title {
   font-size: 1.5rem;
 }
 
+/* Wishlist Section Styling */
 .wishlist-container {
   width: 80%;
-  margin: 1rem auto;
+  margin: 1rem auto 3rem;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -36,6 +40,7 @@ main {
   border-radius: 0;
 }
 
+/* Responsive Styling Starts */
 @media only screen and (max-width: 600px) {
   .product-card {
     width: 60%;
