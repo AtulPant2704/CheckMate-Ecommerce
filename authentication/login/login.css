@@ -1,8 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
-body {
-  font-family: "Poppins", sans-serif;
-}
+@import url("../../footer.css");
 
 .nav-header {
   margin: 0;
@@ -15,7 +11,7 @@ body {
 
 main {
   height: 90vh;
-  width: 100vw;
+  width: 100%;
   background-color: rgb(247, 243, 243);
   display: flex;
   justify-content: center;
