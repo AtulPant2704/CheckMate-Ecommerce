@@ -23,11 +23,13 @@ main {
 }
 
 .filter-container {
-  flex: 1 1 5rem;
+  /* flex: 1 1 5rem; */
+  width: 20%;
 }
 
 .product-container {
-  flex: 4 1 30rem;
+  /* flex: 4 1 30rem; */
+  width: 80%;
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
