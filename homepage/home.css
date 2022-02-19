@@ -1,16 +1,5 @@
+@import url("../common.css");
 @import url("../footer.css");
-
-.nav-header {
-  margin: 0;
-}
-
-.title {
-  font-size: 1.8rem;
-}
-
-main {
-  width: 100%;
-}
 
 /* Intro Section Styling */
 .intro-section {
