@@ -1,21 +1,5 @@
+@import url("../common.css");
 @import url("../footer.css");
-
-/* Main Styling */
-.nav-header {
-  margin: 0;
-}
-
-.title {
-  font-size: 1.8rem;
-}
-
-main {
-  width: 100%;
-}
-
-.page-title {
-  font-size: 1.5rem;
-}
 
 /* Wishlist Section Styling */
 .wishlist-container {
@@ -24,6 +8,10 @@ main {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.product-card {
+  margin: auto;
 }
 
 .img-container i {

@@ -1,21 +1,5 @@
+@import url("../common.css");
 @import url("../footer.css");
-
-/* Main Styling */
-.nav-header {
-  margin: 0;
-}
-
-.title {
-  font-size: 1.8rem;
-}
-
-main {
-  width: 100vw;
-}
-
-.page-title {
-  font-size: 1.5rem;
-}
 
 /* Bill Container Styling */
 .cart-bill-container {
