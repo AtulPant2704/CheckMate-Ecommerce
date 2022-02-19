@@ -19,7 +19,7 @@ main {
   height: calc(100vh - 75px);
   font-weight: 400;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./chechmate-chess.jpg");
+    url("../assets/chechmate-chess\(reduced\).webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
