@@ -1,13 +1,27 @@
+@import url("https://checkmate-ui.netlify.app/css/components.css");
+
+html{
+    height: 100%;
+
+}
+
+main {
+    width: 100%;
+    overflow-y: visible;
+}
+
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .nav-header {
     margin: 0;
 }
   
 .title {
     font-size: 1.8rem;
-}
-
-main {
-    width: 100%;
 }
 
 .page-title {
