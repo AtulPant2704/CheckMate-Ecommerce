@@ -10,6 +10,10 @@
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
 
+.product-card {
+  margin: auto;
+}
+
 .img-container i {
   color: rgb(233, 61, 61);
   padding: 5px;
