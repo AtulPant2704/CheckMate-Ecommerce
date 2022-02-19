@@ -15,7 +15,7 @@ CheckMate Ecommerce is an online store for chess lovers to buy items related to 
 - [Cart Management](https://lmzzw.csb.app/cart/cart.html)
 - [Wishlist](https://lmzzw.csb.app/wishlist/wishlist.html)
 - [Login](https://lmzzw.csb.app/authentication/login/login.html)
-- [Signup](https://lmzzw.csb.app/authentication/signup/signup.html)
+- [Signup](https://lmzzw.csb.app/authentication/sign-up/sign-up.html)
 
 ---
 
