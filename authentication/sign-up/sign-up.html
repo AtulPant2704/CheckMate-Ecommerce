@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,33 +10,38 @@
     <link rel="stylesheet" href="./sign-up.css">
     <title>Signup</title>
 </head>
+
 <body>
 
-    <nav>
+    <header>
 
-        <div class="nav-header">
-            <div class="title-and-search">
-                <i class="fas fa-bars menu-bar"></i>
-                <h2 class="title">My Website</h2>
-                <div class="search">
-                    <span class="btn-search"><i class="fas fa-search"></i></span>
-                    <input type="text" placeholder="Search" class="input-search">
+        <nav>
+            <div class="nav-header">
+                <div class="title-and-search">
+                    <i class="fas fa-bars menu-bar"></i>
+                    <a href="../../homepage/home.html">
+                        <h2 class="title">CheckMate</h2>
+                    </a>
+                    <div class="search">
+                        <span class="btn-search"><i class="fas fa-search"></i></span>
+                        <input type="text" placeholder="Search" class="input-search">
+                    </div>
+                </div>
+                <div class="user-controls">
+                    <a href="../../authentication/login/login.html"><button class="btn-login">Login</button></a>
+                    <a class="btn-check" href="../../wishlist/wishlist.html">
+                        <i class="far fa-heart"></i>
+                        <span class="count">0</span>
+                    </a>
+                    <a class="btn-check" href="../../cart/cart.html">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="count">0</span>
+                    </a>
                 </div>
             </div>
-            <div class="user-controls">
-                <button class="btn-login">Login</button>
-                <div class="btn-check">
-                    <i class="far fa-heart"></i>
-                    <span class="count">0</span>
-                </div>
-                <div class="btn-check">
-                    <i class="fas fa-shopping-cart"></i>
-                    <span class="count">0</span>
-                </div>
-            </div>
-        </div>
+        </nav>
 
-    </nav>
+    </header>
 
     <main>
 
@@ -66,9 +72,9 @@
         <div class="footer-container">
             <p class="footer-title">Made by Atul Pant</p>
             <div class="social-media">
-                <a href="https://github.com/AtulPant2704"><i class="fab fa-github"></i></a>
-                <a href="https://linkedin.com/in/atulpant27"><i class="fab fa-linkedin"></i></a>
-                <a href="https://twitter.com/AtulPant2704"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/AtulPant2704" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/atulpant27" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/AtulPant2704" target="_blank"><i class="fab fa-twitter"></i></a>
             </div>
             <p class="footer-end">© 2022 CheckMate Designs</p>
         </div>
@@ -76,4 +82,5 @@
     </footer>
 
 </body>
+
 </html>
