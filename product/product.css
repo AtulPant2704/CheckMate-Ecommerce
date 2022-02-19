@@ -24,7 +24,7 @@ main {
 .product-container {
   width: 82%;
   display: grid;
-  grid-gap: 0.5rem;
+  grid-gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   margin: auto;
 }
@@ -81,10 +81,38 @@ main {
   border-radius: 0;
 }
 
+.filter-mobile-container{
+  display: none;
+}
+
 /* Media Queries */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .filter-container {
     display: none;
+  }
+
+  .filter-mobile-container {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  .filter-mobile-container .btn {
+    width: 50%;
+    border-radius: 0;
+    border-bottom: none;
+    font-weight: 600;
+  }
+
+  .filter-mobile-container .btn-filter {
+    border-left: none;
+  }
+
+  .filter-mobile-container .btn-sort {
+    border-right: none;
   }
 }
 
