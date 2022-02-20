@@ -18,6 +18,10 @@ body {
   margin: 0;
 }
 
+.hamburger-menu {
+  display: block;
+}
+
 .title i {
   font-size: 1.8rem;
 }

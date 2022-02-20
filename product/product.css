@@ -1,5 +1,5 @@
-@import url("../common.css");
-@import url("../footer.css");
+@import url("../css/common.css");
+@import url("../css/footer.css");
 
 /* Basic Styling */
 main {
@@ -81,7 +81,7 @@ main {
   border-radius: 0;
 }
 
-.filter-mobile-container{
+.filter-mobile-container {
   display: none;
 }
 
@@ -116,7 +116,7 @@ main {
     border-right: none;
   }
 
-  .filter-mobile-container .btn:hover{
+  .filter-mobile-container .btn:hover {
     color: white;
     background-color: var(--secondary-color);
   }
