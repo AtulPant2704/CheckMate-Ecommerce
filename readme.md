@@ -28,11 +28,11 @@ CheckMate Ecommerce is an online store for chess lovers to buy items related to 
 
 ## Desktop Version
 
-![checkmate shop gif](./checkmate-shop-desktop.gif)
+![checkmate shop gif](./assets/checkmate-shop-desktop.gif)
 
 ## Mobile Version
 
-<img src="./checkmate-shop-mobile.gif" style="width: 40%; height: auto;"/>
+<img src="./assets/checkmate-shop-mobile.gif" style="width: 40%; height: auto;"/>
 
 ---
 
