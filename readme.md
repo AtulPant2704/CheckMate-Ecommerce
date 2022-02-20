@@ -9,12 +9,12 @@ CheckMate Ecommerce is an online store for chess lovers to buy items related to 
 
 ## Contains
 
-- [Home](https://lmzzw.csb.app/homepage/home.html)
-- [Products](https://lmzzw.csb.app/product/product.html)
-- [Cart Management](https://lmzzw.csb.app/cart/cart.html)
-- [Wishlist](https://lmzzw.csb.app/wishlist.html)
-- [Login](https://lmzzw.csb.app/login/login.html)
-- [Signup](https://lmzzw.csb.app/sign-up/sign-up.html)
+- [Home](https://checkmate-shop.netlify.app/)
+- [Products](https://checkmate-shop.netlify.app/product/product.html)
+- [Cart Management](https://checkmate-shop.netlify.app/cart/cart.html)
+- [Wishlist](https://checkmate-shop.netlify.app/wishlist/wishlist.html)
+- [Login](https://checkmate-shop.netlify.app/authentication/login/login.html)
+- [Signup](https://checkmate-shop.netlify.app/authentication/sign-up/sign-up.html)
 
 ---
 
