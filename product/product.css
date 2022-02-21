@@ -55,7 +55,12 @@ main {
 }
 
 .filter-type-container label {
+  cursor: pointer;
   margin-left: 5px;
+}
+
+.filter-type-container input {
+  cursor: pointer;
 }
 
 .filter-type .slider {
