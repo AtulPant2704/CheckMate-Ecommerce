@@ -4,6 +4,7 @@ CheckMate Ecommerce is an online store for chess lovers to buy items related to 
 
 ![Forks](https://img.shields.io/github/forks/AtulPant2704/Checkmate-Ecommerce)
 ![Stars](https://img.shields.io/github/stars/AtulPant2704/Checkmate-Ecommerce)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4e609252-5780-4434-97a1-dfa72abb19eb/deploy-status)](https://app.netlify.com/sites/checkmate-shop/deploys)
 
 ---
 
